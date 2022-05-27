@@ -35,7 +35,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
-            <div class="sidebar-brand-text mx-3"><b>SB Admin </b><sup>2</sup></div>
+            <div class="sidebar-brand-text mx-3"><b>SB Admin</b><sup>2</sup></div>
         </a>
 
         <!-- Divider -->
@@ -67,3 +67,6 @@
 
             </nav>
             <!-- End of Topbar -->
+        </div>
+    </div>
+</div>

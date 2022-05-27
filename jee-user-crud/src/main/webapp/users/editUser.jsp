@@ -19,17 +19,17 @@
             <form method="post">
                 <input type="hidden" name="id" value="${user.id}"/>
                 <div class="form-group">
-                    <label for="userName"><span style="font-size: 110%; "><b>Nowa nazwa:</b></span></label>
+                    <label for="userName"><span style="font-size: 110%; color: darkslateblue "><b>Nowa nazwa:</b></span></label>
                     <input value="${user.userName}" name="userName" type="text" class="form-control" id="userName"
                            placeholder="Nazwa użytkownika">
                 </div>
                 <div class="form-group">
-                    <label for="userEmail"><span style="font-size: 110%; "><b>Nowy Email:</b></span></label>
+                    <label for="userEmail"><span style="font-size: 110%;color: darkslateblue "><b>Nowy Email:</b></span></label>
                     <input value="${user.email}" name="userEmail" type="email" class="form-control" id="userEmail"
                            placeholder="Email użytkownika">
                 </div>
                 <div class="form-group">
-                    <label for="userPassword"><span style="font-size: 110%; "><b>Nowe hasło:</b></span></label>
+                    <label for="userPassword"><span style="font-size: 110%;color: darkslateblue "><b>Nowe hasło:</b></span></label>
                     <input name="userPassword" type="password" class="form-control" id="userPassword"
                            placeholder="Hasło użytkownika">
                 </div>
