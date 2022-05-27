@@ -19,22 +19,33 @@
             <div class="table-responsive">
                 <table class="table">
                     <div class="form-group">
-                        <label><h4><span style="color:darkblue; "><b>Id:</b></span></h4></label>
-                        <label><h5>${user.id}</h5></label>
+                        <tr>
+                            <th><label><h4><span style="color:darkblue; "><b>Id:</b></span></h4></label>
+                                <label><h5>${user.id}</h5></label></th>
+                        </tr>
+
                     </div>
                     <div class="form-group">
-                        <label><h4><span style="color:darkblue; "><b>Nazwa:</b></span></h4></label>
-                        <label><h5>${user.userName}</h5></label>
+                        <tr>
+                            <th><label><h4><span style="color:darkblue; "><b>Nazwa:</b></span></h4></label>
+                                <label><h5>${user.userName}</h5></label></th>
+                        </tr>
+
+
                     </div>
                     <div class="form-group">
-                        <label><h4><span style="color:darkblue; "><b>Email:</b></span></h4></label>
-                        <label><h5>${user.email}</h5></label>
+                        <tr>
+                            <th><label><h4><span style="color:darkblue; "><b>Email:</b></span></h4></label>
+                                <label><h5>${user.email}</h5></label></th>
+                        </tr>
+
                     </div>
                     <div>
-                        <a href='<c:url value="/user/edit?id=${user.id}"/>'><h5><span
+                        <tr><th><a href='<c:url value="/user/edit?id=${user.id}"/>'><h5><span
                                 style="font-size: 110%; "><b>Edytuj</b></span></h5></a>
-                        <a href='<c:url value="/user/delete?id=${user.id}"/>'><h5><span
-                                style="font-size: 110%; "><b>Usuń</b></span></h5></a>
+                            <a href='<c:url value="/user/delete?id=${user.id}"/>'><h5><span
+                                    style="font-size: 110%; "><b>Usuń</b></span></h5></a></th></tr>
+
                     </div>
                 </table>
             </div>
