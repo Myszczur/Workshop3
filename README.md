@@ -15,8 +15,9 @@ Application download the data for our program from the MySQL database and use th
 
 ## UsersCRUD application screens
 
-#Screen displaying a list of all users
+Screen displaying a list of all users
 There are three links in the user list:
+   
     -to delete a user (Delete)
     -to edit user (Edit)
     -to user details (Show)
