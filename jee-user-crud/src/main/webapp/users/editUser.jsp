@@ -12,30 +12,34 @@
     </div>
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h5 class="m-0 font-weight-bold text-primary"><span style="font-size: 115%; ">Dodaj użytkownika</span></h5>
+            <h6 class="m-0 font-weight-bold text-primary"><span
+                    style="font-size: 130%; "><b>Edycja użytkownika</b></span></h6>
         </div>
         <div class="card-body">
             <form method="post">
+                <input type="hidden" name="id" value="${user.id}"/>
                 <div class="form-group">
-                    <label for="userName"><h5><b>Nazwa użytkownika</b></h5></label>
-                    <input name="userName" type="text" class="form-control" id="userName"
-                           placeholder="Podaj nazwę użytkownika">
+                    <label for="userName"><span style="font-size: 110%; "><b>Nowa nazwa:</b></span></label>
+                    <input value="${user.userName}" name="userName" type="text" class="form-control" id="userName"
+                           placeholder="Nazwa użytkownika">
                 </div>
                 <div class="form-group">
-                    <label for="userEmail"><h5><b>Email</b></h5></label>
-                    <input name="userEmail" type="email" class="form-control" id="userEmail" placeholder="Podaj email">
+                    <label for="userEmail"><span style="font-size: 110%; "><b>Nowy Email:</b></span></label>
+                    <input value="${user.email}" name="userEmail" type="email" class="form-control" id="userEmail"
+                           placeholder="Email użytkownika">
                 </div>
                 <div class="form-group">
-                    <label for="userPassword"><h5><b>Hasło</b></h5></label>
+                    <label for="userPassword"><span style="font-size: 110%; "><b>Nowe hasło:</b></span></label>
                     <input name="userPassword" type="password" class="form-control" id="userPassword"
-                           placeholder="Podaj hasło">
+                           placeholder="Hasło użytkownika">
                 </div>
 
-                <button type="submit" class="btn btn-primary"><span style="font-size: 110%; "><b>Zapisz</b></span>
+                <button type="submit" class="btn btn-primary"><span style="font-size: 110%; "><b>Edytuj</b></span>
                 </button>
             </form>
-
         </div>
     </div>
 </div>
 <%@ include file="/footer.jsp" %>
+
+
