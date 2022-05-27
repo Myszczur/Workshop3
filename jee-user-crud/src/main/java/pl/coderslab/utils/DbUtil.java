@@ -29,6 +29,7 @@ public class DbUtil {
         }
         return dataSource;
     }
+
     public static User[] addToArray(User s, User[] users) {
         User[] usersData = Arrays.copyOf(users, users.length + 1);
         usersData[users.length] = s;

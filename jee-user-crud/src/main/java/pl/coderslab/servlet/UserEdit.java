@@ -16,13 +16,9 @@ public class UserEdit extends HttpServlet {
 
         UserDao userDao = new UserDao();
         String id = request.getParameter("id");
-
         User userEdit = userDao.read(Integer.parseInt(id));
-
         request.setAttribute("user", userEdit);
-
-        getServletContext().getRequestDispatcher("/users/editUser.jsp")
-                .forward(request, response);
+        getServletContext().getRequestDispatcher("/users/editUser.jsp").forward(request, response);
 
     }
 

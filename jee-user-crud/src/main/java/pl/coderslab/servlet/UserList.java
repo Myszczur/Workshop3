@@ -15,15 +15,7 @@ public class UserList extends HttpServlet {
         UserDao userDao = new UserDao();
         request.setAttribute("users", userDao.findAll());
 
-        getServletContext().getRequestDispatcher("/users/list.jsp")
-                .forward(request, response);
-
-
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+        getServletContext().getRequestDispatcher("/users/list.jsp").forward(request, response);
 
     }
 }

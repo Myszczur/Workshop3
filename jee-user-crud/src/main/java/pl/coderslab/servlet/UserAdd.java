@@ -27,7 +27,6 @@ public class UserAdd extends HttpServlet {
         String userName = request.getParameter("userName");
         String userEmail = request.getParameter("userEmail");
         String userPassword = request.getParameter("userPassword");
-
         user.setUserName(userName);
         user.setEmail(userEmail);
         user.setPassword(userPassword);
