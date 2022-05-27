@@ -5,13 +5,13 @@
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">UsersCRUD</h1>
+        <h1 class="h3 mb-0 text-gray-800"><span style="font-size: 130%; "><b>UsersCRUD</b></span></h1>
         <a href="<c:url value="/list"/>" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-            <i class="fas fa-download fa-sm text-white-50"></i><h6>Lista użytkowników</h6> </a>
+            <i class="fas fa-download fa-sm text-white-50"></i><h6><span style="font-size: 120%; ">Lista użytkowników</span></h6> </a>
     </div>
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h5 class="m-0 font-weight-bold text-primary">Dodaj użytkownika</h5>
+            <h5 class="m-0 font-weight-bold text-primary"><span style="font-size: 115%; ">Dodaj użytkownika</span></h5>
         </div>
         <div class="card-body">
             <form method="post">
@@ -30,7 +30,7 @@
                            placeholder="Podaj hasło">
                 </div>
 
-                <button type="submit" class="btn btn-primary">Zapisz</button>
+                <button type="submit" class="btn btn-primary"><span style="font-size: 110%; ">Zapisz</span></button>
             </form>
 
         </div>
